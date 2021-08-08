@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+  font-size: 18px;
+}
+
+body {
+  background: $off-white;
+}
+
+main {
+  padding: 20px 0;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+
+.logo-by-josepho {
+  width: 100px;
+  transform: translateX(15px);
+}

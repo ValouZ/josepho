@@ -1,0 +1,11 @@
+@keyframes rotatingCheese{
+  100%{
+    transform: rotateZ(-360deg);
+  }
+}
+
+@keyframes loadingBar {
+  100%{
+    width: 100%;
+  }
+}
