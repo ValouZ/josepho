@@ -1,6 +1,8 @@
 const imageResult = document.querySelector("#app-result");
 const validButton = document.querySelector("#app-valid");
 const rotate = document.querySelector("#app-rotate");
+const zooIn = document.querySelector('#app-zoom-in')
+const zooOut = document.querySelector('#app-zoom-out')
 
 imageResult.src = localStorage.image;
 
@@ -23,7 +25,6 @@ rotate.addEventListener("click", () => {
 });
 
 let rotateImage = function (img, canvas) {
-  console.log('rotateImage()')
   // Create canvas context.
   let ctx = canvas.getContext("2d");
 
@@ -39,7 +40,6 @@ let rotateImage = function (img, canvas) {
 };
 
 let updateImage = function (canvas) {
-  console.log('updateImage()')
-  imageResult.src = canvas.toDataURL("image/png")
-  localStorage.image = imageResult.src
+  imageResult.src = canvas.toDataURL("image/png");
+  localStorage.image = imageResult.src;
 };
