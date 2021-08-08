@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel src/loading.html src/success.html",
-    "build": "parcel build src/loading.html src/success.html"
+    "start": "parcel src/loading.html",
+    "build": "parcel build src/loading.html"
   },
   "keywords": [],
   "author": "",
