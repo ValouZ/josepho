@@ -15,14 +15,13 @@
       margin-right: 25px;
     }
 
-    h1{
+    h1 {
       color: $orange;
     }
   }
 
   .img-result {
-    width: 150px;
-    height: max-content;
+    width: $imageSize;
     box-shadow: 2px 2px 5px rgba($color: #000000, $alpha: 0.4);
   }
 
@@ -47,7 +46,7 @@
       display: flex;
       flex-direction: column;
 
-      .buttons{
+      .buttons {
         display: flex;
         justify-content: space-between;
         margin-top: 5px;
@@ -55,7 +54,7 @@
     }
   }
 
-  &__valid{
+  &__valid {
     position: absolute;
     bottom: 30px;
     padding: 10px 20px;
