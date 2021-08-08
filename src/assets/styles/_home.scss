@@ -1,0 +1,84 @@
+.home {
+  height: 100vh;
+  &__header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+    height: 17vh;
+    color: $orange;
+
+    .logo {
+      transform: translateY(5px);
+    }
+
+    .separator {
+      display: flex;
+      height: 100%;
+      border: 1px solid $orange;
+    }
+
+    p {
+      align-self: center;
+      font-size: 14px;
+    }
+  }
+
+  &__main {
+    position: relative;
+    height: 76vh;
+    padding: 15% 0;
+    background: $orange;
+    color: $white;
+
+    h1 {
+      padding: 0 68px;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 100%;
+      border: none;
+      background: $white;
+      width: 100px;
+      height: 100px;
+
+      svg {
+        width: 60px;
+      }
+    }
+  }
+
+  &__footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    height: 7vh;
+    padding: 10px 0;
+    p {
+      position: relative;
+      font-size: 10px;
+      color: grey;
+      span {
+        color: rgb(78, 78, 78);
+        font-size: 14px;
+      }
+    }
+
+    .status::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: -15px;
+      transform: translateY(-50%);
+      height: 10px;
+      width: 10px;
+      border-radius: 100%;
+      background: rgb(41, 236, 41);
+    }
+  }
+}

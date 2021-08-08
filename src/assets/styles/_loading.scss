@@ -12,7 +12,7 @@
   }
 
   &__sent {
-    font-weight: 700;
+    font-family: "NotoSans Bold";
     text-align: center;
     padding: 0 15px;
     // margin-bottom: 50px;
@@ -29,8 +29,8 @@
       animation: 4s rotatingCheese linear infinite;
     }
 
-    .time{
-      font-weight: 700;
+    .time {
+      font-family: "NotoSans Bold";
       margin: 10px 0;
     }
 
@@ -40,7 +40,7 @@
       border: solid 2px $orange;
       border-radius: 10px;
 
-      .loaded{
+      .loaded {
         width: 0%;
         height: 100%;
         background: $orange;
