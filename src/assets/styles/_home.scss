@@ -36,20 +36,28 @@
       margin-bottom: 50px;
     }
 
-    button {
+    .file-label {
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
       border-radius: 100%;
       border: none;
       background: $white;
       width: 100px;
       height: 100px;
+      cursor: pointer;
 
       svg {
         width: 60px;
       }
+    }
+
+    input[type="file"]{
+      display: none;
     }
   }
 
@@ -62,10 +70,10 @@
     p {
       position: relative;
       font-size: 10px;
-      color: grey;
+      color: $grey;
       span {
         color: rgb(78, 78, 78);
-        font-size: 14px;
+        font-size: 14px; 
       }
     }
 
